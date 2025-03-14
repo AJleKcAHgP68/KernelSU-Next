@@ -26,8 +26,8 @@
     <string name="home_manager_version">Версия менеджера</string>
     <string name="home_selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключен</string>
-    <string name="selinux_status_enforcing">Принудительный</string>
-    <string name="selinux_status_permissive">Разрешен</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_unknown">Неизвестно</string>
     <string name="superuser">Superuser</string>
     <string name="module_failed_to_enable">Не удалось включить модуль: %s</string>
@@ -61,7 +61,7 @@
     <string name="module_version_code">Код версии</string>
     <string name="module_update_json">UpdateJson</string>
     <string name="module_update_json_empty">Пусто</string>
-    <string name="enable_developer_options">Включить разработческие настройки</string>
+    <string name="enable_developer_options">Включить настройки разработчика</string>
     <string name="enable_developer_options_summary">Показывать скрытые настройки и отладочную информацию, актуальную только для разработчиков.</string>
     <string name="module_overlay_fs_not_available">Модули недоступны, так как OverlayFS отключен ядром.</string>
     <string name="refresh">Обновить</string>
@@ -187,4 +187,6 @@
     <string name="save_log">Сохранить логи</string>
     <string name="log_saved">Логи сохранены</string>
     <string name="send_log">Поделиться логами</string>
+    <string name="settings_disable_su">Отключить совместимость с su</string>
+    <string name="settings_disable_su_summary">Временно отключить возможность любого приложения получить root-права через команду su (существующие процессы с root-правами не будут затронуты).</string>
 </resources>
